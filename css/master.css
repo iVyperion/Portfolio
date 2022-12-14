@@ -5,15 +5,15 @@ header and geneal stuff
 :root {
     /* Global colors */
     --home-color: rgb(222, 184, 135);
-    --text-color: black;
+    --text-color: rgb(0, 0, 0);
     --dark-background-text-color: white;
     --header-text-color: #000000;
     --header-background-color: linear-gradient(180deg, rgba(222, 184, 135, 1) 35%, rgba(40, 40, 40, 0) 100%);
-    --background-color: white;
+    --background-color: rgb(236, 223, 205);
     --default-font-family: monospace;
     /* Homepage */
     --projects-background-color: #232135;
-    --projects-text-color: black;
+    --projects-text-color: rgb(0, 0, 0);
 
 }
 
@@ -53,9 +53,9 @@ header a {
 }
 
 header a:hover {
-    color: black;
+    color: var(--text-color);
     transform: scale(1.05);
-    border-bottom: black solid;
+    border-bottom: var(--text-color) solid;
 }
 
 
