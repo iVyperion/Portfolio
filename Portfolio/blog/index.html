@@ -4,38 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/@csstools/normalize.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/716d612898.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/master.css">
+    <link rel="stylesheet" href="../css/blog.css">
     <title>Blog</title>
 </head>
 <body>
-    <header class="menu">
-        <a href="../"><img class="header-logo-img" src="../images/carbackground.jpg" alt="Logo">Kwinten De Deyn</a>
-        <nav>
-            <ul>
-                <li class="menu-item"><a href="../">Home</a></li>
-                <li class="menu-item"><a href="../projects/">Projects</a></li>
-                <li class="menu-item"><a href="../about/">About</a></li>
-                <li class="menu-item"><a href="blog/">Blog</a></li>
-                <li class="menu-item"><a href="../contact/">Contact</a></li>
-            </ul>
-        </nav>
+    <header id="navbar">
+        <a href="./">Kwinten De Deyn</a>
+        <ul>
+            <li><a href="../">Home</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="../about/">About</a></li>
+            <li><a href="../blog/">Blog</a></li>
+            <li><a href="../contact/">Contact</a></li>
+        </ul>
     </header>
     <main>
-        <section>
+        <section class="intro-default">
             <h1>Blog</h1>
-            <p>Here I will put out blog posts about various projects.</p>
         </section>
-        <section class="blogpost-container">
-            <div class="blogpost-item">
-                <a href="post/temp.html"><h2>Title 1</h2></a>
-                <p>Some random text as placeholder</p>
-            </div>
-            <div class="blogpost-item">
-                <h2>Title 1</h2>
-                <p>Some random text as placeholder</p>
-            </div>
+        <section>
+            <article class="vcards-container">
+                <div class="vcard">
+                    <h2>Title 1</h2>
+                    <p>Some random text as placeholder <a href="post/temp.html">Read more...</a></p>
+                </div>
+                <div class="vcard">
+                    <h2>Title 1</h2>
+                    <p>Some random text as placeholder <a href="">Read more...</a></p>
+                </div>
+            </article>
         </section>
     </main>
     <footer>&copy; Copyright 2022 - Kwinten De Deyn</footer>
+    <script src="../js/header.js"></script>
 </body>
 </html>

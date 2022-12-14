@@ -1,3 +1,11 @@
 section {
     border-top: black solid;
 }
+
+section:last-child {
+    padding-bottom: 5vh;
+}
+
+.intro-default {
+    background-image: url("../images/Backgrounds/aboutBg.jpg");
+}

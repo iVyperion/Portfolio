@@ -16,17 +16,20 @@
 .intro img {
     border-radius: 25%;
     width: auto;
-    height: 25vh;
-    width: 25vh;
+    height: 50rem;
+    width: 50rem;
     object-fit: cover;
     object-position: top;
-    border: 2px solid white;
+    border: 0.2rem solid white;
 }
 
 .intro h1 {
-    padding-bottom: 3.5vh;
+    margin-bottom: 7rem;
 }
 
+.intro p {
+    padding-bottom: 2rem;
+}
 
 /* Contact section */
 

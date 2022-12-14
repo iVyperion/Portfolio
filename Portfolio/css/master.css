@@ -4,14 +4,13 @@ header and geneal stuff
 
 :root {
     /* Global colors */
-    --home-color: white;
+    --home-color: rgb(222, 184, 135);
     --text-color: black;
     --dark-background-text-color: white;
     --header-text-color: #000000;
-    --header-background-color: linear-gradient(180deg, rgba(255, 255, 255, 1) 35%, rgba(40, 40, 40, 0) 100%);
+    --header-background-color: linear-gradient(180deg, rgba(222, 184, 135, 1) 35%, rgba(40, 40, 40, 0) 100%);
     --background-color: white;
     --default-font-family: monospace;
-
     /* Homepage */
     --projects-background-color: #232135;
     --projects-text-color: black;
@@ -107,6 +106,7 @@ a {
 
 p {
     font-size: 2rem;
+    color: var(--text-color)
 }
 
 section:not(:last-child) {
@@ -116,6 +116,12 @@ section:not(:last-child) {
 
 ul {
     list-style: none;
+}
+
+li {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 0.5rem;
 }
 
 /*
@@ -128,7 +134,7 @@ footer {
     font-size: 2rem;
     align-items: center;
     height: 5vh;
-    background-color: #d3d3d3;
+    background-color: rgb(222, 184, 135);
 }
 
 
@@ -152,14 +158,15 @@ Images
 
 .intro-default {
     width: 100vw;
-    height: 50vh;
+    height: 40vh;
     display: flex;
     background: black url("../images/Backgrounds/home-intro.jpg") no-repeat;
     background-size: cover;
+    background-position: center;
     color: var(--dark-background-text-color);
-    flex-direction: row-reverse;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-direction: column;
     padding-bottom: 10vh;
 }
 
@@ -169,22 +176,43 @@ Images
 }
 
 .hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2rem 4rem 0 rgba(0, 0, 0, 0.3);
     transition: 0.3s;
 }
 
 .hoverE:hover {
-    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2rem 12rem 0 rgb(192, 137, 65);
 }
 
-.btn {
+/** Buttons **/
+
+.sbtn {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: solid 0.2rem black;
+}
+
+.sbtn:hover {
+    background-color: rgb(75, 54, 28);
+    color: rgb(222, 184, 135);
+    border: solid 0.2rem rgb(222, 184, 135);
+}
+
+.mbtn {
     padding: 1rem;
     font-size: 3rem;
-    border: solid 1px black;
+    border: solid 0.3rem black;
+}
+
+.mbtn:hover {
+    background-color: black;
+    color: rgb(222, 184, 135);
+    border: solid 0.3rem rgb(222, 184, 135);
 }
 
 
 /* Cards */
+
 .cards-container {
     display: flex;
     flex-wrap: wrap;
@@ -194,7 +222,6 @@ Images
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
-
 
 .card {
     display: flex;
@@ -206,13 +233,39 @@ Images
 
 .card img {
     border-radius: 2%;
-    border: solid 1px rgb(126, 126, 126)
+    border: solid 1px rgb(222, 184, 135)
 }
 
-.card a {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+/* Vertical Cards*/
+
+.vcards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.vcard {
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    border-bottom: solid black;
+    width: 100%;
+}
+
+.vcard a {
+    text-decoration: none;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.vcard a:hover {
+    background: rgb(0, 0, 0);
+    color: white;
 }
