@@ -112,6 +112,9 @@ section:not(:last-child) {
     padding-bottom: 7.5vh;
 }
 
+section {
+    margin: auto;
+}
 ul {
     list-style: none;
 }
