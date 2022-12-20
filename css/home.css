@@ -1,6 +1,5 @@
 /* Intro section */
 .intro {
-    width: 100vw;
     height: 100vh;
     display: flex;
     background: black url("../images/Backgrounds/home-intro.jpg") no-repeat;
@@ -38,7 +37,6 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 100vw;
     height: 50vh;
     padding-bottom: 5rem;
     background: black url("../images/Backgrounds/woodbg3.jpg") no-repeat;
