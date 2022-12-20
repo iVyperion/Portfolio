@@ -2,9 +2,9 @@
 
 // Constanten (connectie-instellingen databank)
 define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'portfolio');
+define('DB_USER', 'kwinten');
+define('DB_PASS', 'kDed6Ws82004*');
+define('DB_NAME', 'kwinten_dedeyn_');
 
 
 date_default_timezone_set('Europe/Brussels');
