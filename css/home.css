@@ -2,9 +2,10 @@
 .intro {
     height: 100vh;
     display: flex;
-    background: black url("../images/Backgrounds/home-intro.jpg") no-repeat;
+    background: black url("../images/Backgrounds/home-intro.jpg") no-repeat ;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     color: var(--dark-background-text-color);
     flex-direction: row-reverse;
     align-items: center;
@@ -42,6 +43,7 @@
     background: black url("../images/Backgrounds/woodbg3.jpg") no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .contact h1 {

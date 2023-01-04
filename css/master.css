@@ -188,6 +188,7 @@ Images
     background: black url("../images/Backgrounds/home-intro.jpg") no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     color: var(--dark-background-text-color);
     align-items: center;
     justify-content: center;
@@ -262,8 +263,8 @@ Images
     position: relative;
     border-radius: 5%;
     padding-bottom: 2rem;
-    max-width: 50rem;
-    min-width: 25rem;
+    width: 50rem;
+    height: 50rem;
 }
 
 .card a {
@@ -279,9 +280,9 @@ Images
 }
  
 
-.card img {
+.card > img {
+    height: 80%;
     width: 100%;
-    height: 100%;
     padding-bottom: 1rem;
     object-fit: cover;
     object-position: center;

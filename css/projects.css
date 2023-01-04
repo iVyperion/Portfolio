@@ -54,3 +54,8 @@
     width: 75%;
     height: 100rem;
 }
+
+a {
+    text-decoration: underline;
+    color: darkcyan;
+}

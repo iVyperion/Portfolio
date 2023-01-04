@@ -9,3 +9,7 @@ section:last-child {
 .intro-default {
     background-image: url("../images/Backgrounds/aboutBg.jpg");
 }
+
+.card {
+    height: 15rem;
+}
