@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- Baguettebox CSS for image popup -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">    <link rel="stylesheet" href="styles.css">
+    <title>Fest West</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Fest West</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="nav-link" href="#jumbotron">Intro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cards">Inhoud</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#carousel">Media</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#form">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron text-center" id="jumbotron">
+        <h1 class="display-4">Fest West</h1>
+        <p class="lead">
+            Backstory
+        </p>
+        <hr class="my-4" />
+        <p>Na lang thuis zitten in een corona epidemie werd het tijd om terug te keren naar het normale leven. De drang
+            om terug samen te zijn met andere mensen en om ons gewoonweg te amuseren zonder zorgen werd als maar groter.
+            Op dit moment beslisten we om de touwtjes zelf in handen te nemen en om zelf een bijeenkomst te organiseren.
+            Dit is hoe Fest West ontstaan is. Op 13 augustus 2021 ging de eerste officiële editite van Fest West door in
+            Scheldewindeke</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="https://festwest.be/over-ons/" target="_blank" role="button">Leer
+                meer</a>
+        </p>
+    </div>
+    <div class="container" id="cards">
+        <div class="card-deck">
+            <div class="card">
+                <img src="images/home.png" class="card-img-top" alt="Image1" />
+                <div class="card-body">
+                    <h5 class="card-title">Homepagina</h5>
+                    <p class="card-text">
+                        Dit is de homepagina van de Fest West website.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/lineu^p.png" class="card-img-top" alt="Image2" />
+                <div class="card-body">
+                    <h5 class="card-title">Line up</h5>
+                    <p class="card-text">
+                        Hier kan je de line-ups zien van dit jaar en voorbije jaren.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/media.png" class="card-img-top" alt="Image3" />
+                <div class="card-body">
+                    <h5 class="card-title">Media</h5>
+                    <p class="card-text">
+                        Je kan ook de foto's bekijken van elk jaar op deze pagina.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="carousel">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/DSC06218.jpg" class="d-block w-100 h-50" alt="Slide1" />
+                </div>
+                <div class="carousel-item">
+                    <img src="images/DSC06252.jpg" class="d-block w-100 h-50" alt="Slide2" />
+                </div>
+                <div class="carousel-item">
+                    <img src="images/DSC06290.jpg" class="d-block w-100 h-50" alt="Slide3" />
+                </div>
+                <div class="carousel-item">
+                    <img src="images/DSC06385.jpg" class="d-block w-100 h-50" alt="Slide3" />
+                </div>
+                <div class="carousel-item">
+                    <img src="images/DSC06465.jpg" class="d-block w-100 h-50" alt="Slide3" />
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Vorige</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Volgende</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="photoGallery">
+        <div class="container">
+            <h2 class="text-center">Meer foto's</h2>
+            <hr>
+            <div class="gallery-columns">
+                <div class="row">
+                    <pic class="col-6 col-sm-4 mb-4">
+                        <a href="images/DSC06218.jpg" class="thumbnail">
+                            <img src="images/DSC06218.jpg" class="img-fluid" alt="Gallery Image">
+                        </a>
+                    </pic>
+                    <pic class="col-6 col-sm-4 mb-4">
+                        <a href="images/DSC06252.jpg" class="thumbnail">
+                            <img src="images/DSC06252.jpg" class="img-fluid" alt="Gallery Image">
+                        </a>
+                    </pic>
+                    <pic class="col-6 col-sm-4 mb-4">
+                        <a href="images/DSC06290.jpg" class="thumbnail">
+                            <img src="images/DSC06290.jpg" class="img-fluid" class="img-fluid" alt="Gallery Image">
+                        </a>
+                    </pic>
+                    <pic class="col-6 col-sm-4 mb-4">
+                        <a href="images/DSC06385.jpg" class="thumbnail">
+                            <img src="images/DSC06385.jpg" class="img-fluid" alt="Gallery Image">
+                        </a>
+                    </pic>
+                    <pic class="col-6 col-sm-4 mb-4">
+                        <a href="images/DSC06465.jpg" class="thumbnail">
+                            <img src="images/DSC06465.jpg" class="img-fluid" alt="Gallery Image">
+                        </a>
+                    </pic>
+                    <pic class="col-6 col-sm-4 mb-4">
+                        <a href="images/DSC06226.jpg" class="thumbnail">
+                            <img src="images/DSC06226.jpg" class="img-fluid" alt="Gallery Image">
+                        </a>
+                    </pic>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="form">
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email adres</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email" />
+                <small id="emailHelp" class="form-text text-muted">We zullen nooit je email delen met iemand
+                    anders.</small>
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                <label class="form-check-label" for="exampleCheck1">Abboneer mij op de nieuwsbrief</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Verstuur</button>
+        </form>
+    </div>
+
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.gallery-columns');
+    </script>
+</body>
+</html>
