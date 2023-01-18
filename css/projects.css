@@ -55,7 +55,7 @@
     height: 100rem;
 }
 
-a {
+p > a {
     text-decoration: underline;
     color: darkcyan;
 }
